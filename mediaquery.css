@@ -1,0 +1,58 @@
+@media screen and (min-width: 1200px){
+    
+}
+@media screen and (max-width: 992px){
+    .global-navbar {
+        height: 60px;
+    }
+    global-navbar .navbar {
+        padding-top: 8px;
+        padding-bottom: 8px;
+    }
+    global-navbar .navbar-right .navbar-right-list .navbar-right-items {
+        margin-right: 30px;
+    }
+     .restaurant .restaurant-header .restaurant-right{
+        
+        padding-top: 8px;
+        padding-bottom: 8px;
+    }
+    .restaurant .restaurant-header .restaurant-right .restaurant-item{
+        margin-right: 30px;
+        
+    }
+    .restaurant .restaurant-header .restaurant-left{
+        
+        font-size: 22px;
+    }
+
+    .place-name-div .food-items{
+        font-size: 10px;
+    } 
+        
+    .carasoul .carasoul-content{
+         justify-content:center; 
+        row-gap: 5px;
+         flex-wrap: wrap; 
+    }
+    
+    .restaurant-list{
+        display: grid;
+        grid-template-columns: repeat(3, calc(100% / 3));
+        gap: 2px;
+    }
+
+    .footer-container .footer-cotent {
+        flex-wrap: wrap;
+        row-gap: 25px;
+        justify-content: center;
+    }
+
+}
+    
+@media screen and (min-width: 768px){
+    
+}
+@media screen and (min-width: 576px){
+    
+}
